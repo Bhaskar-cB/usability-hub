@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utility classes */
+.container{
+    max-width: 1200px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+.top-banner{
+   
+    background: url(https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5b7e4d7973addf81ed1f4010_pattern.png);
+    background-size: 300px;
+    background-color:#4dadf7 ;
+}
+.banner-text{
+    text-align: center;
+    color: white;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* navbar-section */
+.main-nav{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+li{
+    list-style: none;
+}
+ul li a{
+    text-decoration: none;
+}
+.company-logo img{
+    width: 200px;
+}
+.nav-links{
+    flex-basis: 750px;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: end;
+    gap: 40px;
+
+}
+.hover-link{
+    color: black;
+    text-decoration: none;
+}
+.hover-link:hover{
+    color:#4dadf7;
+    transition: 0.2 ease-out;
+}
+.primary-button{
+    background-color:#2294ed;
+    padding: 12px 24px;
+    color: white!important;
+    border-radius: 6px;
+    font-weight: 700;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+.primary-button:hover{
+    background-color:#4dadf7;
+}
+.secondary-button{
+    padding: 12px 24px;
+    border:0.5px solid black;
+    font-weight: 700;
+    border-radius: 6px;
+    transition: 0.2s ease-out;
+    text-decoration: none;
+}
+.secondary-button:hover{
+    border-color: #2294ed;
+}
+/* header-section */
+header{
+    padding: 25px;
+}
+.header-section{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+
+}
+.header-right img{
+    width: 600px;
+}
+ .get-started-btn{
+    margin-top: 30px;
+    text-decoration: none;
+}
+.header-left{
+    max-width: 40vw;
+}
+.header-left h1{
+    margin-top: 20px;
+}
+.header-left p{
+    margin-top: 30px;
+}
+/* companies-section */
+.text{
+    text-align: center;
+    margin-block: 20px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.logos img{
+    height: 40px;
+}
+/* feature-section */
+.features-section{
+    background: url(./assets/asset\ 41.png);
+}
+.feature-header{
+    text-align: center;
+    margin-block: 20px;
+}
+.feature-heading{
+    margin-bottom: 10px;
+}
+.feature-area{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-top: 20px;
+}
+.feature-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    max-width: 40%;
+    gap:10px;
+}
+/* big-feature-section */
+.big-feature-section{
+    margin-top: 20px;
+}
+.big-feature1{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.right-feature img{
+    width: 100%;
+    height: 550px;
+}
+.feature-description{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+/* examples-section */
+.examples-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.example-card{
+    width: 23%;
+    position: relative;
+    min-height: 300px;
+    background: black;
+    background: linear-gradient(rgb(0,0,0,0.1), rgb(0,0,0,0.8)),url(./assets/asset\ 36.jpeg);
+    background-size: cover;
+    transition: 0.2s ease-out;
+}
+.example-card:hover{
+    box-shadow: 0 0 10px #888;
+}
+.card-text{
+    color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+}
+/* cta-section */
+.cta-section-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+.cta-section{
+    background-color: #183b54;
+    padding-block: 60px;
+    margin-top: 20px;
+}
+.footer-start{
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+}
+.link-column{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+footer{
+    background-color:#ebf2fa;
+    padding-block: 60px;
+}
+/* sub-footer */
+.sub-footer-container{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 30px;
+}
+.sub-footer{
+    background-color:#b9cde4;
+    padding-block: 30px;
+}
